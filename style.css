@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  nav {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 15px;
+  }
+
+  nav ul li a:hover {
+    color: blue;
+  }
+
+  .logo {
+    height: 45px;
+    width: 150px;
+    margin-left: 80px; 
+  }
+
+  .login-btn {
+
+    color: blue;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: blue;
+  }
+
+#id{
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+#id2{
+    font-size: 70px;
+    margin-top: -40px;
+    margin-left: 250px;
+    color: orange;
+}
+#img{
+    width: 30%;
+    margin-left: 750px;
+    margin-top: -380px;
+}
+#p1{
+    margin-top: 10px;
+    margin-left: 250px;
+
+}
+.black-section {
+    background-color: black;
+    color: white; 
+    padding: 50px;
+    margin-top: 150px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px; 
+    margin-top: 20px;
+  }
+  .image-container img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px; 
+  }
+  #num{
+    font-size: 50px;
+    margin-left: 450px;
+  }
+  #aa, #ab, #ac, #ad {
+   /* Change text color to blue */
+    font-size: 24px; /* Change font size to 24 pixels */
+    font-weight: bold;
+    
+  }
+  #aa{
+    margin-left: 36px;
+    margin-top: -100px;
+}
+#ab{
+    margin-left: 36px;
+    margin-top: -100px;
+}
+#ac{
+    margin-left: 36px;
+    margin-top: -100px;
+}
+#ad{
+    margin-left: 36px;
+    margin-top: -100px;
+}
+#simm{
+    margin-top: 80px;
+    margin-left: 600px;
+    font-size: 45px;
+}
+#p2{
+  margin-left: 590px;
+  margin-top: -15px;
+}
+#img2{
+  width: 30%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#credit{
+  margin-top: -290px;
+    margin-left: 600px;
+    font-size: 25px;
+}
+#p3{  
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+}
